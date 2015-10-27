@@ -10,4 +10,7 @@
 
 @interface GreetCardTextView : UIView
 
+@property (nonatomic)UIColor *textColor;
+@property (nonatomic)CGPoint *beginPoint;
+
 @end
