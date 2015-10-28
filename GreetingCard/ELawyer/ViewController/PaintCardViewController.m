@@ -36,7 +36,7 @@
 - (NSMutableArray *)creatTestArray{
     NSMutableArray *array = [[NSMutableArray alloc] init];
     compoentModel *model = [[compoentModel alloc] init];
-    
+    model.
 }
 
 - (void)didReceiveMemoryWarning {
