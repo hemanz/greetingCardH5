@@ -36,7 +36,20 @@
 - (NSMutableArray *)creatTestArray{
     NSMutableArray *array = [[NSMutableArray alloc] init];
     compoentModel *model = [[compoentModel alloc] init];
-    model.
+    model.width = 20;
+    model.height = 50;
+    model.top = 100;
+    model.left = 100;
+    model.text = @"哈哈";
+    compoentModel *model1 = [[compoentModel alloc] init];
+    model.width = 120;
+    model.height = 150;
+    model.top = 300;
+    model.left = 400;
+    model.text = @"哈哈";
+    [array addObject:model];
+    [array addObject:model1];
+    return array;
 }
 
 - (void)didReceiveMemoryWarning {

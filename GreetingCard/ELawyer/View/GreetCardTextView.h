@@ -10,7 +10,13 @@
 
 @interface GreetCardTextView : UIView
 
+{
+    CGPoint beginPoint;
+}
+
+@property (nonatomic) BOOL dragEnable;
+
 @property (nonatomic)UIColor *textColor;
-@property (nonatomic)CGPoint *beginPoint;
+
 
 @end

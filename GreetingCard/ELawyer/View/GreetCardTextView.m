@@ -9,9 +9,7 @@
 #import "GreetCardTextView.h"
 
 @implementation GreetCardTextView
-{
-    BOOL dragEnable;
-}
+
 
 - (id) initWithFrame:(CGRect)frame withUICorlor:(UIColor*)corlor{
     self = [super initWithFrame:frame];
@@ -21,7 +19,7 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    if (!dragEnable) {
+    if (!_dragEnable) {
         return;
     }
     UITouch *touch = [touches anyObject];
