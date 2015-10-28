@@ -19,6 +19,7 @@
 @property (nonatomic) NSInteger fontSize;
 @property (nonatomic) NSInteger width;
 @property (nonatomic) NSInteger heigh;
-@property (nonatomic) CGPoint point;
+@property (nonatomic) NSInteger top;
+@property (nonatomic) NSInteger left;
 @property (nonatomic,copy) NSString *annimation;
 @end
