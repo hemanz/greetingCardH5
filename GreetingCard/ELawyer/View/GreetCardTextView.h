@@ -15,7 +15,7 @@
 }
 
 @property (nonatomic) BOOL dragEnable;
-
+@property (nonatomic) BOOL stroke;
 @property (nonatomic)UIColor *textColor;
 
 

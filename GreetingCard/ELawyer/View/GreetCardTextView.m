@@ -20,8 +20,12 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if (!_dragEnable) {
+        [self setStroke:NO];
         return;
     }
+    
+    [self setStroke:YES];
+    
     UITouch *touch = [touches anyObject];
     
     beginPoint = [touch locationInView:self];
@@ -43,4 +47,21 @@
     self.center = CGPointMake(self.center.x + offsetX, self.center.y + offsetY);
 }
 
+- (void)setStroke:(BOOL)stroke{
+    if (stroke) {
+        [self strokeBorderToBlue];
+    }else{
+        [self strokeBorderTotransparent];
+    }
+}
+
+- (void)strokeBorderToBlue{
+    self.layer.borderColor = (__bridge CGColorRef)([UIColor blueColor]);
+    self.layer.borderWidth = 1;
+}
+
+- (void)strokeBorderTotransparent{
+    self.layer.borderColor = (__bridge CGColorRef)([UIColor clearColor]);
+    self.layer.borderWidth = 1;
+}
 @end

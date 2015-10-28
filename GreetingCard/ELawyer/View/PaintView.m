@@ -7,12 +7,20 @@
 //
 
 #import "PaintView.h"
+#import "GreetCardTextView.h"
 
 @implementation PaintView
-
+{
+    GreetCardTextView *GtextView;
+    UIView *upperView;
+    UIView *baseView;
+    UIView *paintView;
+    UIView *underBarView;
+}
 - (instancetype)initWithFrame:(CGRect)frame withCompoentDataArray:(NSMutableArray *)array{
     self = [super initWithFrame:frame];
     if (self) {
+        baseView = [[UIView alloc] initWithFrame:frame];
         
     }
     return self;

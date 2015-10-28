@@ -31,6 +31,7 @@
 - (void)creatUI{
     NSMutableArray *arr = [self creatTestArray];
     paintView = [[PaintView alloc] initWithFrame:CGRectMake(0,0,wid,heigh) withCompoentDataArray:arr];
+    
 }
 
 - (NSMutableArray *)creatTestArray{
