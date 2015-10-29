@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PaintCardViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,8 @@
 //    self.tab =[[MyTabbarController alloc] init];
 //    
 //    [self.window setRootViewController:self.tab];
+    PaintCardViewController *ptv = [[PaintCardViewController alloc] init];
+    [self.window setRootViewController:ptv];
     [self.window makeKeyAndVisible];
     return YES;
 }
