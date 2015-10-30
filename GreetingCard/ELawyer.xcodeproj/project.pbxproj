@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631D98EB1BE3D1A700AA832D /* H5BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D98EA1BE3D1A700AA832D /* H5BGMViewController.m */; };
 		63A416961B78FEA100079DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A416951B78FEA100079DE2 /* main.m */; };
 		63A416991B78FEA100079DE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A416981B78FEA100079DE2 /* AppDelegate.m */; };
 		63A416A11B78FEA100079DE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A416A01B78FEA100079DE2 /* Images.xcassets */; };
 		63A416A41B78FEA100079DE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A416A21B78FEA100079DE2 /* LaunchScreen.xib */; };
 		63A416B01B78FEA100079DE2 /* ELawyerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A416AF1B78FEA100079DE2 /* ELawyerTests.m */; };
-		D96F52241BD9DC6E002D45A4 /* GreetCardTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96F52231BD9DC6E002D45A4 /* GreetCardTextView.m */; settings = {ASSET_TAGS = (); }; };
-		D9735B6A1BD3737300485A7F /* compoentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B691BD3737300485A7F /* compoentModel.m */; settings = {ASSET_TAGS = (); }; };
-		D9735B6D1BD37AF900485A7F /* MyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B6C1BD37AF900485A7F /* MyCardViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D9735B701BD37B6D00485A7F /* SelectModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B6F1BD37B6D00485A7F /* SelectModuleViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D9735B731BD37B9300485A7F /* PaintCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B721BD37B9300485A7F /* PaintCardViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D9735B761BD37BAA00485A7F /* EditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B751BD37BAA00485A7F /* EditCardViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D9C53A701BDE05D1003F2565 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C53A6F1BDE05D1003F2565 /* PaintView.m */; settings = {ASSET_TAGS = (); }; };
+		D96F52241BD9DC6E002D45A4 /* GreetCardTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96F52231BD9DC6E002D45A4 /* GreetCardTextView.m */; };
+		D9735B6A1BD3737300485A7F /* compoentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B691BD3737300485A7F /* compoentModel.m */; };
+		D9735B6D1BD37AF900485A7F /* MyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B6C1BD37AF900485A7F /* MyCardViewController.m */; };
+		D9735B701BD37B6D00485A7F /* SelectModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B6F1BD37B6D00485A7F /* SelectModuleViewController.m */; };
+		D9735B731BD37B9300485A7F /* PaintCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B721BD37B9300485A7F /* PaintCardViewController.m */; };
+		D9735B761BD37BAA00485A7F /* EditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9735B751BD37BAA00485A7F /* EditCardViewController.m */; };
+		D9C53A701BDE05D1003F2565 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C53A6F1BDE05D1003F2565 /* PaintView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631D98E91BE3D1A700AA832D /* H5BGMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H5BGMViewController.h; sourceTree = "<group>"; };
+		631D98EA1BE3D1A700AA832D /* H5BGMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H5BGMViewController.m; sourceTree = "<group>"; };
 		63A416901B78FEA100079DE2 /* ELawyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELawyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A416941B78FEA100079DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A416951B78FEA100079DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				D9735B721BD37B9300485A7F /* PaintCardViewController.m */,
 				D9735B741BD37BAA00485A7F /* EditCardViewController.h */,
 				D9735B751BD37BAA00485A7F /* EditCardViewController.m */,
+				631D98E91BE3D1A700AA832D /* H5BGMViewController.h */,
+				631D98EA1BE3D1A700AA832D /* H5BGMViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				63A416991B78FEA100079DE2 /* AppDelegate.m in Sources */,
 				63A416961B78FEA100079DE2 /* main.m in Sources */,
 				D96F52241BD9DC6E002D45A4 /* GreetCardTextView.m in Sources */,
+				631D98EB1BE3D1A700AA832D /* H5BGMViewController.m in Sources */,
 				D9C53A701BDE05D1003F2565 /* PaintView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
